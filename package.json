@@ -1,0 +1,21 @@
+{
+  "name": "i-cant-come-up-with-an-idea-for-my-startup",
+  "version": "0.0.1",
+  "main": "./src/app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "redis": "^2.6.3",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.1.0",
+    "istanbul": "^0.4.5"
+  }
+}
